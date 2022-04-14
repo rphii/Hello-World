@@ -1,3 +1,8 @@
+#ifdef _WIN32
+#define F 92
+#else
+#define F 47
+#endif
 #include<stdio.h>
 int main(int c,char**v)
 {
